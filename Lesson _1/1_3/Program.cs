@@ -9,6 +9,6 @@ int b = -a;
 
 while(b <= a)
 {
-    Console.WriteLine(b);
+    Console.Write(b+" ");
     b++;
 }
