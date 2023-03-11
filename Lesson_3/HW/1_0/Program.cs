@@ -3,7 +3,7 @@
 
 void Pal(int num)
 {
-    if (num < 99999 && num > 9999)
+    if (num < 100000 && num > 9999)
     {
         if (num % 10 == num / 10000 && (num % 100)/10 == (num / 1000)%10)
         Console.WriteLine("Yes");
