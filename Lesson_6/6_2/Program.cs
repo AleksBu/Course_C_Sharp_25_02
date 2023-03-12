@@ -13,3 +13,21 @@ string convert(int num_1)
     return result;
 }
 Console.WriteLine (convert(45)!);
+
+
+// string Binary(int num)
+// {
+//     string res = "";
+
+//     while (num > 0)
+//     {
+//         res = num % 2 + res;
+//         num /= 2;
+//     }
+//     return res;
+// }
+
+// // 12 - 1100, 4 - 100, 45 - 101101
+// int n = int.Parse(Console.ReadLine()!);
+// string result = Binary(n);
+// Console.WriteLine(result);
