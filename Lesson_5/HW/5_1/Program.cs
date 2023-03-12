@@ -19,7 +19,7 @@ int[] MassNums(int size)
     return arr;
 }
 
-void SumPosNeg(int[] arr)
+void Even(int[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -37,4 +37,4 @@ int num = int.Parse(Console.ReadLine()!);
 
 int[] mass = MassNums(num);
 Print(mass);
-SumPosNeg(mass);
+Even(mass);
