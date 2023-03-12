@@ -13,4 +13,4 @@ void Find(int num)
     else
         Console.WriteLine("No");
 }
-Find (int.Parse(Console.ReadLine()));
+Find (int.Parse(Console.ReadLine()!));
