@@ -1,15 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿// 0. Задайте двумерный массив размером m×n,
+// заполненный случайными целыми числами.
 
 void Print(int[,] arr)
 {
     int row = arr.GetLength(0);
     int column = arr.GetLength(1);
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < column; j++)
             Console.Write($" {arr[i, j]} ");
+        Console.WriteLine();
     }
     Console.WriteLine();
 }
