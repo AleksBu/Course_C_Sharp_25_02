@@ -47,28 +47,3 @@ int[,] mass = MassNums(row_num, column_num, start, stop);
 Print(mass);
 FirstWithLast(mass);
 Print(mass);
-
-// 1. Задайте двумерный массив. Напишите программу,
-//    которая поменяет местами первую и последнюю строку массива.
-
-// void FirstWithLast(int[,] arr)
-// {
-//     int row = arr.GetLength(0);
-//     int column = arr.GetLength(1);
-
-//     for (int j = 0; j < column; j++)
-//         (arr[0, j], arr[row - 1, j]) = (arr[row - 1, j], arr[0, j]);
-// }
-
-// Console.Write("Enter the number of rows: ");
-// int row_num = int.Parse(Console.ReadLine()!);
-// Console.Write("Enter the number of columns: ");
-// int column_num = int.Parse(Console.ReadLine()!);
-
-// int start = int.Parse(Console.ReadLine()!);
-// int stop = int.Parse(Console.ReadLine()!);
-
-// int[,] mass = MassNums(row_num, column_num, start, stop);
-// Print(mass);
-// FirstWithLast(mass);
-// Print(mass);
