@@ -38,7 +38,6 @@ void SumColumn(int [,] arr)
         }
             double result = sum/arr.GetLength(0);
             Console.Write($" {Math.Round(result, 2)} ");
-//        Console.Write($" {sum/arr.GetLength(1)} ");
     }
 }
 int num_row = int.Parse(Console.ReadLine()!);
