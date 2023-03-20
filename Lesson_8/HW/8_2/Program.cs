@@ -41,10 +41,14 @@ int[] FindRow(int[,] arr)
 void MinRow(int [] arr)
 {
     int minsum = arr [0];
+    int rownumber = 0;
     for (int i = 0; i < arr.Length; i++)
         if (arr [i] < minsum)
+        {
             minsum = arr [i];
-    Console.Write(minsum);
+            rownumber = i;
+        }
+    Console.Write($"row number: {rownumber + 1} summa: {minsum}");
 }
 
 Console.Write("Enter the number of rows: ");
